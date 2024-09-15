@@ -10,6 +10,7 @@ $ adb push temp.png /sdcard/Download/
 ### UI
 https://ui.perfetto.dev/
 
+### Systrace
 ```java
 Trace.beginSection("TextViewSampleActivity")
 ...
