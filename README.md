@@ -9,3 +9,9 @@ $ adb push temp.png /sdcard/Download/
 ## perfetto
 ### UI
 https://ui.perfetto.dev/
+
+```java
+Trace.beginSection("TextViewSampleActivity")
+...
+Trace.endSection()
+```
