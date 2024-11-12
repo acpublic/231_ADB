@@ -16,3 +16,12 @@ Trace.beginSection("TextViewSampleActivity")
 ...
 Trace.endSection()
 ```
+
+### 解像度変更
+$ adb shell wm size
+$ adb shell wm size 1920x1080
+
+### DPI値変更
+$ adb shell wm density
+$ adb shell wm density 320
+
