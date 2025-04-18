@@ -21,6 +21,37 @@ adb pull /sdcard/Download/temp.png .
 ```
 adb push temp.png /sdcard/Download/
 ```
+### APKインストール
+```
+adb install <APKファイル>
+```
+
+### APKアンインストール
+```
+adb uninstall <パッケージ名>
+```
+### APK起動
+```
+adb shell am start -n [アプリ名]/[アクティビティ名]
+```
+### 画面キャプチャ
+```
+adb shell screencap -p /sdcard/screenshot.png
+```
+### 画面録画
+```
+adb shell screenrecord /sdcard/record.mp4
+```
+### 仮想的キー入力
+- https://developer.android.com/reference/android/view/KeyEvent
+```
+adb shell input keyevent <キーコード>
+```
+### APKファイルの保存場所
+```
+adb shell pm list packages -f
+```
+
 ### ADBサーバ再起動
 ```
 adb kill-server
