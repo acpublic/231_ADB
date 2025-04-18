@@ -13,10 +13,24 @@ adb shell
 ```
 adb devices
 ```
-### ファイル転送
+### ファイル外部転送
+```
+adb pull /sdcard/Download/temp.png .
+```
+### ファイル内部転送
 ```
 adb push temp.png /sdcard/Download/
 ```
+### ADBサーバ再起動
+```
+adb kill-server
+adb start-server
+```
+### 端末再起動
+```
+adb reboot
+```
+
 ## perfetto
 ### UI
 https://ui.perfetto.dev/
