@@ -78,7 +78,7 @@ $ adb shell wm density 320
 
 ## perfetto
 ### UI
-https://ui.perfetto.dev/
+- https://ui.perfetto.dev/
 
 ### Systrace
 ```java
