@@ -1,8 +1,17 @@
+# Android Debug Bridge（ADB）
 ## コマンド
 ### バージョン
 ```
 adb 
 Android Debug Bridge version 1.0.41
+```
+### 内部アクセス
+```
+adb shell
+```
+### 接続デバイス
+```
+adb devices
 ```
 ### ファイル転送
 ```
