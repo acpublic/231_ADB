@@ -34,6 +34,10 @@ adb uninstall <パッケージ名>
 ```
 adb shell am start -n [アプリ名]/[アクティビティ名]
 ```
+### ログ
+```
+adb logcat
+```
 ### 画面キャプチャ
 ```
 adb shell screencap -p /sdcard/screenshot.png
