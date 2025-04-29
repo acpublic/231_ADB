@@ -1,4 +1,8 @@
 # Android Debug Bridge（ADB）
+## Android Studio経由
+1. SDK ManagerでAndroid SDK Platform-Toolsがインストールされているか確認
+2. Pathを通す
+
 ## コマンド
 ### バージョン
 ```
